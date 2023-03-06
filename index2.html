@@ -7,6 +7,7 @@
     <title>Forms</title>
 </head>
 <body>
+    <h2>Apllication form</h2>
     <form action="">
         <label for="username">Enter user name:</label>
         <input type="text" id="username">
@@ -17,10 +18,24 @@
         <label for="password">Enter user password:</label>
         <input type="password" id="password" placeholder="your password is...">
         <br><br>
-        <select name="question" id="question">security question</select>
+        <label for="question">Security question: </label>
+        <select name="question" id="question">
         <option value="q1">whats your pets name?</option>
         <option value="q2">when is your bes friends birthday?</option>
         <option value="q3">who is your favorite aartist</option>
+        </select>
+
+        <br><br>
+        <p>select your age:</p>
+        <input type="radio" name="age" value="0-25" id="option1">
+        <label for="option1">0-25</label>
+        <br><br>
+        <input type="radio" name="age" value="26-60" id="option2">
+        <label for="option2">26-60</label>
+        <br><br>
+        <input type="radio" name="age" value="60 and above" id="option3">
+        <label for="option3">0-25</label>
+       
         
 
 
